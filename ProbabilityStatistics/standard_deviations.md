@@ -17,32 +17,32 @@ To calculate the variance follow these steps:
 - The work out the average of those squared differences.
 
 $$
-\begin{align}
+\begin{aligned}
   Mean &= \frac {600+470+170+430+300}{5} \\
        &= \frac {1970}{5} \\
        &= 394
-\end{align}
+\end{aligned}
 $$
 
 Variance:
 
 $$
-\begin{align}
+\begin{aligned}
   \sigma^2 &= \frac {(600-394)^2+(470-394)^2+(170-394)^2+(430-394)^2+(300-394)^2} {5} \\
            &= \frac {206^2+76^2+(-224)^2+36^2+(-94)^2} {5} \\
            &= \frac {108520} {5} \\
            &= 21704
-\end{align}
+\end{aligned}
 $$
 
 Standard Deviation:
 
 $$
-\begin{align}
+\begin{aligned}
   \sigma &= \sqrt{21704} \\
-         &= 147.32
-         &= 147
-\end{align}
+         &= 147.32 \\
+         &\approx 147
+\end{aligned}
 $$
 
 ## Standard Deviation Formulas
