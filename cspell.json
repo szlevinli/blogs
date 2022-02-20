@@ -3,6 +3,7 @@
     "displaystyle",
     "functools",
     "itertools",
-    "Toolz"
+    "Toolz",
+    "Vercel"
   ]
 }
