@@ -91,3 +91,44 @@ The **z-score formula**:
 $$
 z = \frac{x-\mu}{\sigma}
 $$
+
+## Expected Value vs. Mean: What's the Difference?
+
+- **Expected value** is used when we want to calculate the mean of a probability distribution. This represents the average value we expect to occur before collecting any data.
+- **Mean** is typically used when we want to calculate the average value of a given sample. This represents the average value of raw data that we've already collected.
+
+### Example: Calculating Expected Value
+
+A probability distribution tells us the probability that a random variable takes on certain values.
+
+> 概率分布告诉我们一个随机变量取某个值的概率.
+
+For example, the following probability distribution tells us the probability that a certain soccer team scores a certain number of goals in a given game:
+
+| Goals (X) | Probability P(x) |
+| :-------: | :--------------: |
+|     0     |       0.18       |
+|     1     |       0.34       |
+|     2     |       0.35       |
+|     3     |       0.11       |
+|     4     |       0.02       |
+
+To calculate the expected value of this probability distribution, we can use the following formula:
+
+$$
+Expected Value = \sum{x \times P(x)}
+$$
+
+where:
+
+- **x**: Data value
+- **P(x)**: Probability of value
+
+$$
+\begin{aligned}
+  Expected Value &= 0 \times 0.18 + 1 \times 0.34 + 2 \times 0.35 + 3 \times 0.11 + 4 \times 0.02 \\
+                &= 1.45
+\end{aligned}
+$$
+
+因为平均值比较好理解这里就不再说明和举例了.
