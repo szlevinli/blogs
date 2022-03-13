@@ -1,3 +1,10 @@
+---
+title_: Haskell memo
+trans: Haskell memo
+catagories: Haskell
+date: 2022-3-12
+---
+
 # Haskell memorandum
 
 ## GHCup

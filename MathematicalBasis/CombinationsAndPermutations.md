@@ -1,3 +1,10 @@
+---
+title_: Combinations and Permutations
+trans: 排列和组合
+catagories: Mathematical Basis
+date: 2022-3-12
+---
+
 # Combinations and Permutations
 
 ## What's the Difference?

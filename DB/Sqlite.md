@@ -1,3 +1,10 @@
+---
+title_: Sqlite Memo
+trans: Sqlite Memo
+catagories: Database
+date: 2022-3-12
+---
+
 # Sqlite Memo
 
 ## CTE (Common Table Expression)
