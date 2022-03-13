@@ -1,3 +1,10 @@
+---
+title_: Probability And Statistics Memo
+trans: 概率和统计备忘录
+catagories: Probability and Statistics
+date: 2022-3-12
+---
+
 # Probability Statistics
 
 ## Normal Distribution
