@@ -123,7 +123,7 @@ For example, the following probability distribution tells us the probability tha
 To calculate the expected value of this probability distribution, we can use the following formula:
 
 $$
-Expected Value = \sum{x \times P(x)}
+\text{Expected Value} = \sum{x \times P(x)}
 $$
 
 where:
@@ -133,9 +133,27 @@ where:
 
 $$
 \begin{aligned}
-  Expected Value &= 0 \times 0.18 + 1 \times 0.34 + 2 \times 0.35 + 3 \times 0.11 + 4 \times 0.02 \\
+  \text{Expected Value} &= 0 \times 0.18 + 1 \times 0.34 + 2 \times 0.35 + 3 \times 0.11 + 4 \times 0.02 \\
                 &= 1.45
 \end{aligned}
 $$
 
 因为平均值比较好理解这里就不再说明和举例了.
+
+## Errors and Residuals
+
+> References: [WikiPedia](<https://en.wikipedia.org/wiki/Errors_and_residuals#:~:text=The%20error%20(or%20disturbance)%20of,example%2C%20a%20sample%20mean).>)
+
+我们可以将 Errors 翻译成"误差", 把 Residuals 翻译成 "残差".
+
+这章主要解释"误差"和"残差"的区别.
+
+我们可以简单的理解"误差"是观察值与总体均值的差. "残差"是观察值与样本集的均值的差.
+
+假设中国 21 岁男性的平均身高是 1.70 米, 我们随机抽取了 3 个 21 岁的男性, 他们的身高分别为 1.68 米, 1.80 米, 1.75 米.
+
+这里 1.70 是总体均值. 样本均值是 $\frac{1.68+1.80+1.75}{3}=1.74$.
+
+那么对于第一个样本 1.68 米的"误差"是 $1.68-1.70=-0.02$, "残差"是 $1.68-1.74=-0.06$.
+
+"残差"的合计等于零. 这个例子的"残差"合计是 0.01, 这与计算时的样本精度有关, 不用特别介意.
