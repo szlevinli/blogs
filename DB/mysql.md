@@ -39,3 +39,11 @@ date: 2022-5-19
 
 参考: [Host '172.18.0.1' is not allowed to connect to this MySQL server
 ](https://github.com/docker-library/mysql/issues/275#issuecomment-292208567)
+
+## Common Command
+
+获取数据库数据存储路径
+
+```bash
+mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+```
