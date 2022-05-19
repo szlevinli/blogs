@@ -9,8 +9,10 @@
     "itertools",
     "mathbb",
     "mathcal",
+    "Multicollinearity",
     "pmatrix",
     "pyplot",
+    "sklearn",
     "Toolz",
     "Vercel"
   ]
