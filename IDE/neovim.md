@@ -45,7 +45,7 @@ call plug#begin('~/.config/nvim/plugged')
  " Plugin Section
  Plug 'dracula/vim'
  Plug 'ryanoasis/vim-devicons'
- Plug 'SirVer/ultisnips'
+ " Plug 'SirVer/ultisnips'
  Plug 'honza/vim-snippets'
  Plug 'scrooloose/nerdtree'
  Plug 'preservim/nerdcommenter'
