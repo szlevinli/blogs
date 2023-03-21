@@ -12,6 +12,7 @@
     "Multicollinearity",
     "pmatrix",
     "pyplot",
+    "scipy",
     "sklearn",
     "Toolz",
     "Vercel"
